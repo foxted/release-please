@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/telus/dx-release-please/compare/v1.0.0...v1.1.0) (2023-09-21)
+
+
+### Features
+
+* test ([feaf44e](https://github.com/telus/dx-release-please/commit/feaf44e93f2079585182448182fe5b153985016a))
+
 ## 1.0.0 (2023-09-21)
 
 
