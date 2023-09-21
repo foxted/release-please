@@ -6,7 +6,7 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "release-type": "simple"
+      "release-type": "simple",
       "extra-files": [
         "README.md",
         {
