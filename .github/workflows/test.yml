@@ -1,0 +1,20 @@
+name: Test
+
+on:
+  workflow_call:
+    inputs:
+      test:
+        type: string
+        default: 'test'
+        description: 'Test'
+        required: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Test
+        run: echo "Test"
+

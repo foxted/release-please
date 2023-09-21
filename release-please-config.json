@@ -8,11 +8,10 @@
       "prerelease": false,
       "release-type": "simple",
       "extra-files": [
-        "README.md",
         {
           "type": "yaml",
-          "path": "test.yml",
-          "jsonpath": "$.test.bonzai"
+          "path": ".github/workflows/test.yml",
+          "jsonpath": "$.on.workflow_call.inputs.test.default"
         }
       ]
     }
