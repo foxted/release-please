@@ -25,7 +25,7 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         id: release-github
         with:
-          release-type: github
+          release-type: simple
           command: release-pr
 
       - name: Tag major and minor versions
