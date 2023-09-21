@@ -5,7 +5,7 @@ on:
     inputs:
       test:
         type: string
-        default: 'test'
+        default: 'x-release-please-version'
         description: 'Test'
         required: false
 
