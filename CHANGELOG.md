@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/telus/dx-release-please/compare/v1.1.0...v1.1.1) (2023-09-21)
+
+
+### Bug Fixes
+
+* add checkout step ([5b3476c](https://github.com/telus/dx-release-please/commit/5b3476c356276a9a330b07cee3f60fde793bdcbb))
+
 ## [1.1.0](https://github.com/telus/dx-release-please/compare/v1.0.0...v1.1.0) (2023-09-21)
 
 
