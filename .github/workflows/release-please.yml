@@ -17,6 +17,8 @@ jobs:
       - name: Run Release Please
         uses: foxted/release-please-action@main
         id: release
+        with:
+          command: release-pr
 
       - name: Tag major and minor versions
         if: ${{ steps.release.outputs.release_created }}
